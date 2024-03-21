@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size:xx-large;
+    font-weight:700;
+    background-color: #CCD3CA;
+}
+
+h1{
+    margin:3rem auto 5rem auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    color: #35374B;
+}
+
+hr {
+    border: dotted;
+    border-color: #427D9D;
+    border-bottom: none;
+    border-width: 0.5rem;
+    width: 4%;
+}
+
+a{
+    color: #35374B;
+    margin: 0.625rem 0.625rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#F2AFEF
+}
+
+.copyright{
+    color: #F2AFEF;
+    font-size:1rem;
+    padding:1.25rem 0;
+}
+
+.heading{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+    margin: 0.5rem auto 0 auto;
+    color: #EADFB4;
+}
+
+.top-container {
+    position: relative  ;
+    padding-top: 100px;
+    background-color: #9BB0C1;
+}
+
+.bottom-container{
+    background-color: #9BB0C1;
+    padding: 1.25rem 0 1.25rem;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 18.75rem;
+    top: 5rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 18.75rem;
+    bottom: 36rem;
+}
+
+.skill-row{
+    width: 75%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.snow-ball{
+    width: 20%;
+    float: left;
+    margin-right:1.875rem ;
+}
+.coffee{
+    width:20%;
+    float: right;
+    margin-left:1.875rem ;
+}
+
+.profile{
+    width: 75%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.avatar{
+    width:30%;
+    float: right;
+    margin-left:1.875rem ;
+}
+
+.contact-me{  
+    width: 75%;
+    font: 0.75rem;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.connect-img{
+    width:20%;
+    float: right;
+    margin-left:1.875rem ;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    animation-duration: 0.5;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
